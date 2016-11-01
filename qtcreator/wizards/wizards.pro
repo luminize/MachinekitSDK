@@ -3,8 +3,8 @@ TEMPLATE = subdirs
 WIZARD_FILES = machinekitapplication \
                qtquickvcpproject \
                halfile \
-               bbiofile \
                qtquickvcpapplication
+#               bbiofile
 
 include(../../paths.pri)
 

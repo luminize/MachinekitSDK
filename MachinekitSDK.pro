@@ -33,4 +33,4 @@ TEMPLATE = subdirs
 CONFIG += ordered
 SUBDIRS += qbs qtcreator
 
-#include(paths.pri)
+include(paths.pri)

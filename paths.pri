@@ -5,7 +5,7 @@ QTSDK_DIR=$$absolute_path($$[QT_INSTALL_PREFIX]/../..)
 
 # Qt Creator paths for the Qt Quick Designer plugin
 # Path to the Qt Creator source - not needed anymore
-QTCREATOR_SOURCE_DIR=$$QTSDK_DIR/../qt-creator
+#QTCREATOR_SOURCE_DIR=$$QTSDK_DIR/../../prog/qt-creator
 # Path to installed Qt Creator (where the plugin should be installed to)
 QTCREATOR_INSTALL_DIR=$$QTSDK_DIR/Tools/QtCreator
 

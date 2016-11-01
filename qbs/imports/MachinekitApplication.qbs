@@ -45,7 +45,7 @@ Product {
         qbs.installDir: ""
     }
 
-    Group {
+/*    Group {
         name: "BB IO files"
         condition: ((files != undefined) && (files.length != 0))
         files: bbioFiles
@@ -53,7 +53,7 @@ Product {
         qbs.install: true
         qbs.installDir: ""
     }
-
+*/
     Group {
         name: "Python components"
         condition: ((files != undefined) && (files.length != 0))
